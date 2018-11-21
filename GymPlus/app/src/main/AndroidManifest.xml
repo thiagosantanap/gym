@@ -23,6 +23,19 @@
         <activity android:name=".MainActivity_Sair" />
         <activity android:name=".MainActivity_Home" />
         <activity android:name=".MainActivity_EncontreSeuPersonal" />
+        <activity android:name=".activity_filtrar_busca" />
+        <activity android:name=".activity_perfil" />
+        <activity android:name=".activity_op_perfil" />
+        <activity android:name=".activity_op_formprofissional" />
+        <activity android:name=".alteraNomeUsuario" />
+        <activity android:name=".alteraDescricao" />
+        <activity android:name=".alteraFormProfissional">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
